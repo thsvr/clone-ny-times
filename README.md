@@ -11,7 +11,7 @@ Built With:
 * CSS3
 
 # GitHub Page
-Live version:
+Live version:https://raw.githack.com/thsvr/clone-ny-times/nav-branch/index.html
 
 # Authors
 * Adeleke Temitayo https://github.com/lekegitrepo
