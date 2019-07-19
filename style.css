@@ -1,8 +1,9 @@
 .nav-bar {
+	border-bottom: 1px solid #e2e2e2;
 	box-sizing: border-box;
     display: flex;
-    height: 26px;
-    justify-content: space-between;
+    height: 38px;
+	justify-content: space-between;
     position: static; /*sticky*/
 }
 #menu {
@@ -25,7 +26,7 @@
 	margin-right: 10px;
 }
 .top-buttons {
-
+	align-items: flex-end;
 	width: 196px;
 }
 .top-buttons button {
@@ -48,6 +49,9 @@
 	font-size: 10px;
 	height: 32px;
 	width: 63px;
+}
+.line {
+	
 }
 
 
