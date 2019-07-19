@@ -50,8 +50,18 @@
 	height: 32px;
 	width: 63px;
 }
-.line {
-	
+footer {	
+	display: flex;	
+	justify-content: space-around;
+	margin-left: 80px;
+	margin-right: 80px;	
+}
+footer a {
+	color: rgb(153, 153, 153);
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	font-size: 11px;
+	line-height: 11px;		
+	text-decoration: none;
 }
 
 
