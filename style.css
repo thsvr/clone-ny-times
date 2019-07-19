@@ -72,11 +72,13 @@ main {
 	position: relative;
 }
 main div {
-	background-color: #000;
-	color: #ef24d2;
-	height: 20px;
-	margin-bottom: 5px;
-	position: relative;
+}
+.headline {
+}
+.headline div {
+	font: inherit;
+	font-size: 100%;
+	margin-left: 20%;
 }
 
 
