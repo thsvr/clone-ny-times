@@ -1,5 +1,22 @@
 .nav-bar {
     display: flex;
     height: 26px;
+    justify-content: space-between;
+}
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 25%;
+}
+.space-cosmos a {
+	text-decoration-line: none;
+}
+.brand-name {
+	width: 20%;
+	height: 20%;
+}
+.right-bars .search-icon {
+	margin-right: 10px;
 }
 
