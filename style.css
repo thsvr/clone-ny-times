@@ -80,5 +80,15 @@ main div {
 	font-size: 100%;
 	margin-left: 20%;
 }
+#content-img {
+	display: flex;
+	height: 531px;
+	justify-content: center;
+	width: 945px;
+}
+#content-img img {
+	height: 531px;
+	width: 945px;
+}
 
 
