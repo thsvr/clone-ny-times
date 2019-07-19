@@ -76,7 +76,6 @@ main div {
 .footer-img {
 	display: flex;
 	justify-content: center;
-	
 }
 .explanation-img {
 	color:#666666;
@@ -94,7 +93,19 @@ main div {
 	letter-spacing: 0.13px;
 	line-height: 18px;
 	text-align: left;
-
+}
+/* article stats here: */
+.article {
+	display: flex;
+	justify-content: center;
+}
+#autor-nyt {
+	color:#121212;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	line-height: 20px;
+	text-align: start;
 }
 footer {	
 	display: flex;
