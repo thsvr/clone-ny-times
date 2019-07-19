@@ -4,7 +4,8 @@
     display: flex;
     height: 38px;
 	justify-content: space-between;
-    position: static; /*sticky*/
+    position: sticky;
+    width: 115%;
 }
 #menu {
 	display: flex;
@@ -65,6 +66,17 @@ footer a {
 	font-size: 11px;
 	line-height: 11px;		
 	text-decoration: none;
+}
+main {
+	top: 50px;
+	position: relative;
+}
+main div {
+	background-color: #000;
+	color: #ef24d2;
+	height: 20px;
+	margin-bottom: 5px;
+	position: relative;
 }
 
 
