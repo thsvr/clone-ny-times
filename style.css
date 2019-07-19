@@ -13,10 +13,13 @@
 	text-decoration-line: none;
 }
 .brand-name {
-	width: 20%;
+	width: 195px;
 	height: 20%;
 }
 .right-bars .search-icon {
 	margin-right: 10px;
+}
+.top-buttons {
+	width: 196px;
 }
 
