@@ -185,6 +185,29 @@ iframe {
 	padding: 0;
 	margin: 0;
 }
+.footer-article {
+	margin-bottom: 150px;
+
+}
+.footer-article p {
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	color: #666666;
+	padding: 0;
+	margin: 0;
+}
+.footer-article p a{
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: left;
+	color: #666666;
+	text-decoration: none;
+
+}
+
 .useful-links {	
 	display: flex;
 	height:64px;	
