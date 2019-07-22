@@ -57,6 +57,7 @@ body {
 }
 main {
 	top: 50px;
+	margin-bottom: 60px;
 	position: relative;
 }
 main div {
@@ -186,7 +187,7 @@ iframe {
 	margin: 0;
 }
 .footer-article {
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 
 }
 .footer-article p {
@@ -207,10 +208,22 @@ iframe {
 	text-decoration: none;
 
 }
-
+.media-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.media-icons-list {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+}
+.media-icons {
+	margin-left: 16px;
+}
 .useful-links {	
 	display: flex;
-	height:64px;	
+	height:54px;	
 	justify-content: space-around;
 	margin-left: 0px;
 	margin-right: 0px;	
