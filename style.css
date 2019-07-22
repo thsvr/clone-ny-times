@@ -138,6 +138,14 @@ li {
 	justify-content: flex-end;
 	padding: 0px;
 }
+p {
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: start;
+	color: #333333;
+
+}
 .useful-links {	
 	display: flex;
 	height:64px;	
@@ -192,5 +200,6 @@ footer {
 	height:20px;
 	width: 20px;
 }
+
 
 
