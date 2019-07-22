@@ -90,17 +90,38 @@ main div {
 	text-align: left;
 	width: 945px;
 }
-.autor-ny {
-	color:#888888;
-	font-family: nyt-imperial, georgia, "times new roman", times, serif;
-	font-size: 13px;
-	letter-spacing: 0.13px;
-	line-height: 18px;
-	text-align: left;
+.main-content {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.article-parent {
+	margin: auto;
+	width: 60%;
+}
+.article-metadata {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+li {
+	list-style: none;
+}
+.article-metadata ul li {	
+}
+.icons li a svg {
+	background: #eee;
+	border-radius: 50%;
+	height: 15px;
+	margin-top: 5px;
+	margin-left: 20px;
+	padding: 5px;
+	width: 15px;
 }
 /* article stats here: */
 .article {
-	display: flex;
+	display: block;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	justify-content: center;
 }
 #autor-nyt {
@@ -110,6 +131,12 @@ main div {
 	letter-spacing: 0.3px;
 	line-height: 20px;
 	text-align: start;
+}
+.icons {
+	display: flex;
+	margin: 0px;
+	justify-content: flex-end;
+	padding: 0px;
 }
 .useful-links {	
 	display: flex;
