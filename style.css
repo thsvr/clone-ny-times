@@ -67,9 +67,14 @@ main {
 	position: relative;
 	top: 50px;
 }
-.headline div {
-	font: inherit;
-	font-size: 100%;
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.headline {
+	display: block;
+}
+.headline-container {
 	margin-left: 20%;
 }
 #content-img {
