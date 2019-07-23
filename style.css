@@ -31,8 +31,8 @@ body {
 	text-decoration-line: none;
 }
 .brand-name {
-	width: 195px;
 	height: 20%;
+	width: 195px;
 }
 .right-bars .search-icon {
 	margin-right: 10px;
@@ -63,14 +63,9 @@ body {
 	width: 63px;
 }
 main {
-	top: 50px;
 	margin-bottom: 60px;
 	position: relative;
-}
-main div {
-	
-}
-.headline {
+	top: 50px;
 }
 .headline div {
 	font: inherit;
@@ -115,8 +110,6 @@ main div {
 li {
 	list-style: none;
 }
-.article-metadata ul li {	
-}
 .icons li a svg {
 	background: #eee;
 	border-radius: 50%;
@@ -140,38 +133,44 @@ li {
 	line-height: 20px;
 	text-align: start;
 }
-.icons {
-	display: flex;
-	margin: 0px;
-	justify-content: flex-end;
-	padding: 0px;
-}
-p {
+.article-top p a {
+	color: #333333;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 20px;
 	line-height: 30px;
-	text-align: start;
+	text-align: start;	
+}
+.icons {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px;
+	padding: 0px;
+}
+p {
 	color: #333333;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: start;	
 }
 .video-stanford {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
+	justify-content: center;
 	margin-left: 80px;
 }
 iframe {
 	height:358px;
 	width:600px;
 }
-
 .video-stanford p {
+	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
 	line-height: 20px;
-	text-align: left;
-	color: #666666;
+	margin: 0;	
 	padding: 0;
-	margin: 0;
+	text-align: left;	
 }
 .telescope-img {
 	display: flex;
@@ -181,39 +180,37 @@ iframe {
 }
 .telescope {
 	display: flex;
-	width:650px;
 	height:350px;
+	width:650px;
 }
 .telescope-img p {
+	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
 	line-height: 20px;
-	text-align: left;
-	color: #666666;
-	padding: 0;
 	margin: 0;
+	padding: 0;	
+	text-align: left;
 }
 .footer-article {
 	margin-bottom: 50px;
-
 }
 .footer-article p {
+	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
 	line-height: 20px;
-	text-align: left;
-	color: #666666;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	text-align: left;	
 }
 .footer-article p a{
+	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
 	line-height: 20px;
 	text-align: left;
-	color: #666666;
 	text-decoration: none;
-
 }
 .media-container {
 	display: flex;
@@ -225,7 +222,7 @@ iframe {
 	border-radius: 3px;
 	background-color: rgb(98, 136, 165);
 	color: #fff;
-	cursor: pointer;
+	cursor: pointer;	
 	height: 34px;
 	text-align: center;
 	width: 328px;
@@ -250,8 +247,8 @@ iframe {
 .share-btn {
 	border-radius: 100%;
 	cursor: pointer;
+	height: 27px;
     padding: 5px;
-    height: 27px;
     width: 27px;    
 }
 .section-links {
@@ -263,12 +260,12 @@ iframe {
 }
 .logo-tnyt-link-go img {
 	padding-left: 50px;
-
 }
  .list-links ul li {
 	border-top: 1px solid #eee; 
 	border-bottom: 1px solid #eee;
 	color: #333333;
+	cursor: pointer;
 	font-family: nyt-franklin;
 	font-weight: bold;
 	font-size: 15px;
@@ -276,7 +273,6 @@ iframe {
 	line-height: 18px;
 	padding: 20px;
 	text-align: start;
-
 }
 .useful-links {	
 	display: flex;
@@ -295,37 +291,34 @@ iframe {
 	text-decoration: none;
 }
 footer {
-	display: flex;
-	flex-flow: row wrap;
 	background-color: rgb(51, 51, 51);
 	border-bottom: 1px solid #e2e2e2;
-	box-sizing: border-box;
-	left: 0px;
 	bottom: 0px;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row wrap;
+	font-weight: bold;
+	left: 0px;
     height: 38px;
     position: sticky;
 	width: 100%;
 	z-index: 99999;
-	font-weight: bold;
-}
+}	
 .footer-link {
-	display: flex;
-	width: 25%;
+	align-self: center;	
 	color: white;
-	text-decoration: none;
-	align-self: center;
+	display: flex;
 	margin-left: auto;
-	
-
+	text-decoration: none;
+	width: 25%;
 }
 .footer-bottom {
-	display: flex;
-	width: 15%;
-	margin-left: auto;
-	color: white;
-	text-decoration: none;
 	align-self: flex-end;
-
+	color: white;
+	display: flex;	
+	margin-left: auto;	
+	text-decoration: none;	
+	width: 15%;
 }
 #arrow-forward {
 	align-self: center;
