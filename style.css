@@ -165,7 +165,7 @@ iframe {
 	height:358px;
 	width: 100%;
 }
-.video-stanford p {
+.video-stanford figcaption {
 	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
@@ -184,7 +184,7 @@ iframe {
 	height:350px;
 	width:100%;
 }
-.telescope-img p {
+.telescope-img figcaption {
 	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
@@ -259,7 +259,7 @@ iframe {
 	flex-direction: column;
 	margin-top: 120px;
 }
-.logo-tnyt-link-go img {
+.logo-tnyt-link-go figure {
 	padding-left: 50px;
 }
  .list-links ul li {
