@@ -98,12 +98,20 @@ h1 {
 	text-align: left;
 	width: 945px;
 }
+.section-container {
+	display: flex;
+	flex-direction: row;
+}
 .main-content {
 	display: flex;
 	flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin-left: 15%;
 	width: 60%;
+}
+aside {
+	align-self: center;
+	margin-left: 5%;
 }
 .article-metadata {
 	align-items: center;
