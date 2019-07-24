@@ -109,13 +109,18 @@ h1 {
     margin-left: 15%;
 	width: 60%;
 }
+.inflation-theory {
+	display: flex;
+	
+}
+.image-theory {
+	height:60%;
+	width:100%;
+}
 aside {
 	align-self: center;
 	margin-left: 5%;
 	width:15%;
-}
-aside h6{
-
 }
 aside p {
 	color: #333333;
@@ -134,6 +139,21 @@ aside button {
     text-align: center;
 	height:45px;
 	width: 200px;
+}
+aside .fig figure {
+	margin: 3px;
+	padding:0;
+}
+.fig {
+	display: flex;
+	flex-direction: row;
+}
+.fig a {
+	color: #333333;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration: none;
 }
 .article-metadata {
 	align-items: center;
