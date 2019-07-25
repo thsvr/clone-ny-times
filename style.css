@@ -340,7 +340,7 @@ iframe {
     background-color: royalblue;
     grid-column-start: 4;
 }
-.imgs img {
+.imgs img  {
 	height:175px;
 	width:100%;
 }
