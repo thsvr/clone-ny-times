@@ -110,8 +110,7 @@ h1 {
 	width: 60%;
 }
 .inflation-theory {
-	display: flex;
-	
+	display: flex;	
 }
 .image-theory {
 	height:60%;
@@ -136,8 +135,8 @@ aside button {
     color: #fff;
 	font-size: 14px;
 	font-weight: bold;
-    text-align: center;
 	height:45px;
+    text-align: center;
 	width: 200px;
 }
 aside .fig figure {
@@ -172,7 +171,7 @@ li {
 	padding: 5px;
 	width: 15px;
 }
-/* article stats here: */
+/* article starts here: */
 .article {
 	display: block;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
@@ -320,8 +319,7 @@ iframe {
 .logo-tnyt-link-go figure {
 	padding-left: 50px;
 }
-/* 1st grid*/ 
-
+/* first grid*/ 
 .grid {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 3fr;
@@ -345,7 +343,6 @@ section.title1, section.title2, section.title3 {
     grid-column-end: 4;
     grid-row-start: 1;
 }
-
 .title2 {
     grid-column-start: 4;
 }
@@ -362,25 +359,21 @@ section.title1, section.title2, section.title3 {
 	margin: 17px 0px 0px 0px;
 	padding-bottom: 0px;
 }
-
 .img-1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
 }
-
 .img-2 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
 }
-
 .img-3 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
 }
-
 .img-4 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -391,19 +384,16 @@ section.title1, section.title2, section.title3 {
     grid-column-end: 3;
     grid-row-start: 3;
 }
-
 .img-6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
 }
-
 .title3 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 4;
 }
-
 .img-7 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -414,7 +404,6 @@ section.title1, section.title2, section.title3 {
     grid-column-end: 3;
     grid-row-start: 5;
 }
-
 .img-9 {
     grid-column-start: 3;
     grid-column-end: 4;
@@ -439,9 +428,7 @@ section.title1, section.title2, section.title3 {
 .news-in-line h4 {
 	cursor: pointer;
 }
-
-
-/* grid footer: */
+/* second grid */
 .grid-parent {
 	display: grid;
 	grid-template-columns: repeat(5, 2fr) 3fr;
@@ -466,8 +453,6 @@ section.title1, section.title2, section.title3 {
 li {
 	line-height: 25px;
 }
- /* end of grid*/
-
 .useful-links {	
 	display: flex;
 	height:54px;	
