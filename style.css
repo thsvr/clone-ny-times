@@ -325,19 +325,28 @@ iframe {
 .grid {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 3fr;
-    grid-template-rows: 100px 300px 300px 100px 300px;
-    grid-gap: 5px;
+    grid-template-rows: 50px 300px 300px 50px 250px;
+    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    margin-top: 70px;
+    padding: 0px 20px 0px 20px;
 }
-
+section.title1, section.title2, section.title3 {
+	font-weight: bold;
+	font-size: 22px;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.grid .title1, .grid .title2, .grid .title3 {
+	border-top: 1px solid black;
+}
 .title1 {
-    background-color: aquamarine;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
 }
 
 .title2 {
-    background-color: royalblue;
     grid-column-start: 4;
 }
 .imgs img  {
@@ -347,79 +356,79 @@ iframe {
 .imgs p {
 	color: black;
 	font-size:15px;
-
+	line-height: 20px;
+	margin: 3px 0px 0px 0px;
+	padding-bottom: 0px;
 }
 
 .img-1 {
-    background-color: blue;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
 }
 
 .img-2 {
-    background-color: red;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
 }
 
 .img-3 {
-    background-color: blue;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
 }
 
 .img-4 {
-    background-color: red;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
 }
 .img-5 {
-    background-color: blue;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
 }
 
 .img-6 {
-    background-color: red;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
 }
 
 .title3 {
-    background-color: aquamarine;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 4;
 }
 
 .img-7 {
-    background-color: red;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 5;
 }
 .img-8 {
-    background-color: blue;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
 }
 
 .img-9 {
-    background-color: red;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 5;
 }
-
+.imgs figcaption {
+	font-size: 8px;
+	float: right;
+	height: 4px;
+}
+.imgs span {
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+	height: 4px;
+}
 .news-in-line {
-    background-color: salmon;
     grid-column-start: 4;
     grid-row-start: 2;
     grid-row-end: auto;
