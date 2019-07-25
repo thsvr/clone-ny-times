@@ -303,16 +303,42 @@ iframe {
     width: 27px;    
 }
 .section-links {
+	align-items: center;
 	border-top-color: #eee;
 	border-top-style: double;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	margin-top: 120px;
+}
+.section-links a {
+	color: #666666;
+	font-size: 13px;
+	text-decoration: none;
+	margin-right: 25px;
 }
 .logo-tnyt-link-go figure {
 	padding-left: 50px;
 }
- .list-links ul li {
+
+/* grid footer*/
+.grid-parent {
+	display: grid;
+	grid-template-columns: repeat(5, 2fr) 3fr;
+	grid-template-rows: 400px; /*1 big row w list*/
+	grid-column-gap: 10px;
+	margin-left: 50px;
+}
+.five-columns {
+	background-color: rebeccapurple;
+
+}
+.last-column {
+	background-color: aqua;
+}
+ /* end of grid*/
+
+ /*.list-links ul li {
 	border-top: 1px solid #eee; 
 	border-bottom: 1px solid #eee;
 	color: #333333;
@@ -324,7 +350,7 @@ iframe {
 	line-height: 18px;
 	padding: 20px;
 	text-align: start;
-}
+} */
 .useful-links {	
 	display: flex;
 	height:54px;	
