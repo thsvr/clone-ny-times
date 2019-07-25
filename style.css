@@ -320,7 +320,6 @@ iframe {
 .logo-tnyt-link-go figure {
 	padding-left: 50px;
 }
-
 /* grid footer*/
 .grid-parent {
 	display: grid;
@@ -328,13 +327,23 @@ iframe {
 	grid-template-rows: 400px; /*1 big row w list*/
 	grid-column-gap: 10px;
 	margin-left: 50px;
-}
-.five-columns {
-	background-color: rebeccapurple;
-
+	border-bottom: 1px solid #666666;
 }
 .last-column {
-	background-color: aqua;
+	border-left: 1px solid gray;	
+}
+.last-column hr {
+	color: #666666;
+}
+.five-columns ul li, .last-column ul li {
+	cursor: pointer;
+	color: black;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
+	font-size: 15px;
+	text-align: start;
+}
+li {
+	line-height: 25px;
 }
  /* end of grid*/
 
