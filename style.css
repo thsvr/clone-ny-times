@@ -320,7 +320,113 @@ iframe {
 .logo-tnyt-link-go figure {
 	padding-left: 50px;
 }
-/* grid footer*/
+/* 1st grid*/ 
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+    grid-template-rows: 100px 300px 300px 100px 300px;
+    grid-gap: 5px;
+}
+
+.title1 {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+.title2 {
+    background-color: royalblue;
+    grid-column-start: 4;
+}
+.imgs img {
+	height:175px;
+	width:100%;
+}
+.imgs p {
+	color: black;
+	font-size:15px;
+
+}
+
+.img-1 {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+}
+
+.img-2 {
+    background-color: red;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+
+.img-3 {
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+.img-4 {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+}
+.img-5 {
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+}
+
+.img-6 {
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+
+.title3 {
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+.img-7 {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+}
+.img-8 {
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+}
+
+.img-9 {
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+}
+
+.news-in-line {
+    background-color: salmon;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: auto;
+}
+
+
+/* grid footer: */
 .grid-parent {
 	display: grid;
 	grid-template-columns: repeat(5, 2fr) 3fr;
@@ -347,19 +453,6 @@ li {
 }
  /* end of grid*/
 
- /*.list-links ul li {
-	border-top: 1px solid #eee; 
-	border-bottom: 1px solid #eee;
-	color: #333333;
-	cursor: pointer;
-	font-family: nyt-franklin;
-	font-weight: bold;
-	font-size: 15px;
-	height: 20px;
-	line-height: 18px;
-	padding: 20px;
-	text-align: start;
-} */
 .useful-links {	
 	display: flex;
 	height:54px;	
