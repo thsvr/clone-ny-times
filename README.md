@@ -7,7 +7,7 @@ A clone system of [The New York Times Webpage](https://www.nytimes.com/2014/03/1
 <br><br>
 Built With:
 * HTML5
-* CSS3: Flexbox and Grid
+* CSS3: Flexbox and Grid.
 
 # GitHub Page
 Live version:https://raw.githack.com/thsvr/clone-ny-times/main/index.html
