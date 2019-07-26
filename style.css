@@ -79,6 +79,7 @@ h1 {
 }
 #content-img {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 #content-img img {
@@ -88,6 +89,7 @@ h1 {
 .footer-img {
 	display: flex;
 	justify-content: center;
+	margin-top: 0px;
 }
 .explanation-img {
 	color:#666666;
@@ -110,11 +112,12 @@ h1 {
 	width: 60%;
 }
 .inflation-theory {
-	display: flex;	
+	display: flex;
+	justify-content: center;	
 }
 .image-theory {
 	height:60%;
-	width:100%;
+	width:80%;
 }
 aside {
 	align-self: center;
@@ -182,7 +185,7 @@ li {
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
 	letter-spacing: 0.3px;
-	line-height: 20px;
+	line-height: 10px;
 	text-align: start;
 }
 .article-top p a {
@@ -214,7 +217,7 @@ iframe {
 	height:358px;
 	width: 100%;
 }
-.video-stanford figcaption {
+.video-stanford figcaption, .video-stanford span {
 	color: #666666;
 	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 	font-size: 15px;
@@ -338,6 +341,9 @@ section.title1, section.title2, section.title3 {
 .grid .title1, .grid .title2, .grid .title3 {
 	border-top: 1px solid black;
 }
+section.title1 h4, section.title2 h4, section.title3 h4 {
+	margin: 0px;
+}
 .title1 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -389,6 +395,9 @@ section.title1, section.title2, section.title3 {
     grid-column-end: 4;
     grid-row-start: 3;
 }
+.imgs figure {
+	margin: 0px;
+}
 .title3 {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -432,7 +441,7 @@ section.title1, section.title2, section.title3 {
 .grid-parent {
 	display: grid;
 	grid-template-columns: repeat(5, 2fr) 3fr;
-	grid-template-rows: 450px; /*1 big row w list*/
+	grid-template-rows: 500px; /*1 big row w list*/
 	grid-column-gap: 10px;
 	margin-left: 50px;
 	border-bottom: 1px solid #666666;
@@ -440,9 +449,10 @@ section.title1, section.title2, section.title3 {
 .last-column {
 	border-left: 1px solid gray;	
 }
-.last-column hr {
-	color: #666666;
+.last-column ul {
+	padding-left: 20px;
 }
+
 .five-columns ul li, .last-column ul li {
 	cursor: pointer;
 	color: black;
@@ -453,6 +463,17 @@ section.title1, section.title2, section.title3 {
 li {
 	line-height: 25px;
 }
+.inner-list {
+	margin: 20px 0px 0px 5px;
+	padding: 0px;
+}
+ul.inner-list li {
+	font-size: 10px;
+}
+ul.inner-list li:nth-child(3) {
+	border-bottom: 1px solid #666666;
+	padding-bottom: 8px;
+}
 .useful-links {	
 	display: flex;
 	height:54px;	
@@ -460,6 +481,7 @@ li {
 	margin-left: 0px;
 	margin-right: 0px;	
 	padding-top: 9px;
+	padding-left: 0px;
 	width:100%;
 }
 .useful-links a {
