@@ -78,6 +78,7 @@ h1 {
 	margin-left: 20%;
 }
 #content-img {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
